@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <title>To-Do List</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="title playfair-display-extrabold">
+                <h1>To-Do List</h1>
+                <hr>
+            </div>
+            <div class="list">
+
+            </div>
+            <div class="addItem">
+                <input type="text" class="textBox handlee-regular" placeholder="List item...">
+                <button class = "add handlee-regular" onclick="createListItem()">Add</button>
+                <button class = "clear handlee-regular" onclick="clearList()">Clear List</button>
+            </div>
+        </div>
+        <script src="script.js" charset="utf-8"></script>
+    </body>
+</html>
